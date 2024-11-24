@@ -30,7 +30,7 @@ The script automates the following steps:
 
 1. Opens the Brit Insurance website.
 2. Searches for the term "IFRS 17" in the search bar.
-3. Asserts that 58 search results are displayed.
+3. Asserts that 8 search results are displayed.
 4. Verifies that one of the titles is "Financials".
 
 ## Notes
