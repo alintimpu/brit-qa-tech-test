@@ -38,7 +38,7 @@ chromedriver --version
 1. Ensure that the virtual environment is active.
 2. Navigate to the ui_test directory:
     cd ui_tests
-3. Run the UI test:
+3. Run the UI tests:
     python test_ui.py
 
 ## What the Test Does
@@ -67,4 +67,5 @@ The API test validates the PATCH endpoint of the RESTful API by updating an obje
 
 ## Known Issues
 UI test relies on dynamic elements; any changes to the website structure may require script updates.
+
 API test has a limit of requests per day. The current limit is equal to 100 requests per day.
