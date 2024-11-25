@@ -23,6 +23,7 @@ Detailed instructions and dependencies are provided below.
 
 ## Create and activate a virtual environment:
 python3 -m venv venv
+
 source venv/bin/activate
 
 ## Install dependencies:
