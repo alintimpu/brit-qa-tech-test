@@ -4,6 +4,7 @@
 This repository contains the solutions for the Brit QA Tech Test, which includes:
 1. A UI Automation Task to verify search functionality on the Brit Insurance website.
 2. An API Automation Task to test the PATCH endpoint of a RESTful API.
+
 Both solutions are implemented in Python using Selenium for UI testing and the requests library for API testing. 
 
 Detailed instructions and dependencies are provided below.
@@ -17,6 +18,7 @@ Detailed instructions and dependencies are provided below.
 ## Setup Instructions
 1. Clone the repository:
     git clone https://github.com/alintimpu/brit-qa-tech-test
+2. Navigate to the correct path:
     cd brit-qa-tech-test
 
 ## Create and activate a virtual environment:
@@ -51,7 +53,9 @@ The script automates the following steps:
 
 ## Notes
 Ensure Google Chrome is installed on your system.
+
 WebDriver Manager is used to handle the ChromeDriver version automatically.
+
 If the test fails, check the CSS selectors or ensure that the website layout has not changed.
 
 
