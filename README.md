@@ -67,3 +67,4 @@ The API test validates the PATCH endpoint of the RESTful API by updating an obje
 
 ## Known Issues
 UI test relies on dynamic elements; any changes to the website structure may require script updates.
+API test has a limit of requests per day. The current limit is equal to 100 requests per day.
